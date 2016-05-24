@@ -1,0 +1,1 @@
+# HANZ-IT-Beacon-Test
