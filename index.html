@@ -1,0 +1,55 @@
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc4/angular-material.min.css">
+</head>
+<body ng-app="BlankApp" ng-cloak>
+    <md-content>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>
+                    <span>HANZ IT</span>
+                </h2>
+            </div>
+        </md-toolbar>
+        <md-card>
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">You've walked into the IT Area!</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <p>
+                    Welcome to the HANZ IT Work area. We always try and do our best to help you through your day; But unfortunately we help alot of people, which means we're VERY busy! 
+                    Logging calls helps up priotize our work and help you faster!
+                </p>
+                <p> 
+                    So...Have you logged a call yet?
+                </p>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button ng-href="https://holcim.service-now.com/holcim_hanz_ess/open_incident.do">Log a Call</md-button>
+            </md-card-actions>
+        </md-card>
+    </md-content>
+  
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc4/angular-material.min.js"></script>
+  
+  <!-- Your application bootstrap  -->
+  <script type="text/javascript">    
+    /**
+     * You must include the dependency on 'ngMaterial' 
+     */
+    angular.module('BlankApp', ['ngMaterial']);
+  </script>
+  
+</body>
+</html>
